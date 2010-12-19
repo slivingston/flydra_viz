@@ -1,0 +1,12 @@
+flydra_viz -- Visualization tools for the Flydra tracking system.
+
+
+N.B., this project is under active development, so be sure to look at
+the code, or email Scott Livingston if the notes below are out-of-date
+or incorrect.
+
+nodes/flydra2rviz.py reads tracked objects (i.e. points) from a Flydra
+mainbrain server (visible as a ROS topic) and forwards them as Markers
+on topic visualization_marker, all within the namespace ``tracked_points''.
+The points can then be viewed in RViz ( http://www.ros.org/wiki/rviz
+), or anything that accepts visualization_msgs/Marker messages.
