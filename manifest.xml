@@ -1,0 +1,17 @@
+<package>
+  <description brief="">
+
+     flydra_viz -- Visualization tools for the Flydra tracking system.
+
+  </description>
+  <author>Scott C. Livingston</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+
+  <depend package="rospy"/>
+  <depend package="visualization_msgs"/>
+  <depend package="geometry_msgs" />
+  <depend package="std_msgs" />
+  <depend package="ros_flydra" />
+
+</package>
